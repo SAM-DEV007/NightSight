@@ -223,7 +223,7 @@ if __name__ == '__main__':
 
     # Main Path
     model_dir = Path(__file__).resolve().parent
-    main_dir = model_dir.parent
+    main_dir = model_dir.parent.parent
 
     # Variables
     ckpt_path = str(model_dir / 'results/Model/Model_Data/ckpt')
