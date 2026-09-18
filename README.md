@@ -11,7 +11,7 @@ The CycleGANs are abandoned midway in training due to higher training time and l
 The codes are fully functional and last tested on tensorflow 2.16.0 and keras 3.3.3.
 
 ## Model Training
-The snippets of the training epoch-wise on a sample image and how the model improves. Half of the training (epoch 01-50) trains Illumination_Low parameter and the rest (epoch 51-100) trains Illumination_Delta parameter of the model.
+The snippets of the training epoch-wise on a sample image and how the model improves. Half of the training (epoch 01-50) trains `Illumination_Low` parameter and the rest (epoch 51-100) trains `Illumination_Delta` parameter of the model.
 
 ### Epoch 1
 ![Epoch 1 training](https://raw.githubusercontent.com/SAM-DEV007/NightSight/refs/heads/main/Model/RetinexNet/results/__results___files/__results___16_2.png)
